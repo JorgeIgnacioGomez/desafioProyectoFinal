@@ -198,8 +198,8 @@ h1{
 
 @mixin sizes( $argumento1){
     color: $argumento1;
-    &:nth-child(#{$cols}n){
-    margin-right: 0;
+    &:body(#{$cols}n){
+    width: 100%
 }
 
 p{
